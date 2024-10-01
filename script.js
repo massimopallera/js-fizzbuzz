@@ -11,14 +11,14 @@ const m2 = 5;
 const m1_str = 'Fizz';
 const m2_str = 'Buzz';
 
-const m3_str = m1_str+m2_str
-const maxCont = 100;
 
+const maxCont = 100;
 
 for (let i = 1; i <= maxCont; i++){
     let str = '';
+    
     if (i%m1 == 0 && i%m2 == 0){
-        str = m3_str;
+        str = m1_str+m2_str;
     }
     else if (i%m1 == 0){
         str = m1_str;
